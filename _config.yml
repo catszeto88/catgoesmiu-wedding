@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: Cat Goes Miu
+title: CatGoesMiu
 subtitle: "Catherine and Kevin's wedding website"
 url: "http://catgoesmiu.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
