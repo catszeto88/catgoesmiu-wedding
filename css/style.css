@@ -5,12 +5,14 @@
  */
 
  @font-face {
-font-family: "Andara Script";
-src: url("fonts/andara_script.eot");
-src:
-url("fonts/andara_script-webfont.woff") format("woff"),
-url("fonts/andara_script.otf") format("opentype"),
-url("fonts/andara_script.svg") format("svg");
+  font-family: 'andara_scriptsoft';
+  src: url("fonts/andara_script.eot");
+  src:
+  url("fonts/andara_script-webfont.woff") format("woff"),
+  url("fonts/andara_script.otf") format("opentype"),
+  url("fonts/andara_script.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
  .italic {
