@@ -121,7 +121,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'andara_scriptsoft', sans-serif;
+  font-family: 'andara_scriptsoft';
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -130,7 +130,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'andara_scriptsoft', sans-serif;
+  font-family: 'andara_scriptsoft';
   font-weight: 300;
   /* letter-spacing: 1px; */
 }
