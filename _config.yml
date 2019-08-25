@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Cat Goes Miu Wedding Website
-subtitle: "A free HTML5 agency template"
+title: Cat Goes Miu
+subtitle: "Catherine and Kevin's wedding website"
 url: "http://catgoesmiu.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""

@@ -121,19 +121,18 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'andara_scriptsoft', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
-  letter-spacing: 10px;
   padding-bottom: 45px;
 }
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'andara_scriptsoft', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
+  /* letter-spacing: 1px; */
 }
 /*--
 	wrapper Start
@@ -145,6 +144,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
+  color: #650b06;
 }
 #intro .block p {
   color: #7B7B7B;
