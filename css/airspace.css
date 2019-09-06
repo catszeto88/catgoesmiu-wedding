@@ -14,6 +14,12 @@
 /*--
 	Common Css
 --*/
+
+element {
+  --burgandy: #650b06;
+  --blush: #ead6d1;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,20 +31,30 @@ h3,
 h4,
 h5,
 h6 {
-
   font-family: 'andara_scriptsoft';
+  color: #650b06;
 }
+h1 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  padding-bottom: 45px;
+}
+
 h2 {
   font-size: 45px;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 h3 {
   font-size: 40px;
   font-weight: 300;
 }
 p {
+  font-family: 'Raleway', sans-serif;
   font-size: 25px;
   line-height: 28px;
+  color: #650b06;
 }
 ul {
   padding: 0;
@@ -53,6 +69,7 @@ a:active {
 }
 .section-title {
   margin-bottom: 70px;
+  text-align: center;
 }
 .section-title h2 {
   text-transform: uppercase;
@@ -117,23 +134,31 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: .3;
+  opacity: .5;
 }
 #slider .block {
   color: #E3E3E4;
 }
 #slider .block h1 {
   font-family: 'andara_scriptsoft';
-  font-weight: 100;
-  font-size: 50px;
-  line-height: 60px;
-  padding-bottom: 45px;
+  color: #ffffff;
 }
+
+#slider .block h3 {
+  font-family: 'andara_scriptsoft';
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 55px;
+  padding-bottom: 45px;
+  color: #ffffff;
+}
+
 #slider .block p {
   font-size: 30px;
   line-height: 40px;
   font-family: 'andara_scriptsoft';
   font-weight: 300;
+  color: #ffffff;
   /* letter-spacing: 1px; */
 }
 /*--
@@ -142,15 +167,15 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro {
   padding: 100px 0;
 }
-#intro .block h2 {
+#intro .block h3 {
   padding-top: 35px;
-  line-height: 27px;
+  /* line-height: 27px; */
   margin: 0;
-  color: #650b06;
 }
 #intro .block p {
-  color: #7B7B7B;
   padding-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
 }
 #intro .block img {
   padding-left: 40px;
